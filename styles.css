@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* ALTERNATIVELY CAN WRITE MARGIN:0 SO THAT IT TRANSLATES TO ALL 4 SIDES. */
+/* h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right:auto;
+  margin-left:auto;
+} */
+.Introduction {
+  background-color: #EAEAEA;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  color: #252A34;
+  /* padding:20px; */
+}
+
+p{
+  line-height:2;
+}
+
+.about {
+  width: 40%;
+  margin:0 auto 0 auto;
+}
+
+.hey {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.contactme {
+  background-color: #EAEAEA;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.25rem;
+  color: #FF2E63;
+  text-align: center;
+  height: 200px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 90px;
+  margin-bottom: 0;
+  color: #FF2E63;
+}
+
+.headings {
+  color: #252A34;
+}
+
+.twitter {
+  text-align: center;
+  margin: 0 30px 0 30px;
+}
+
+a {
+  display:inline-block;
+   color: #FF2E63;
+  text-decoration: none;
+  margin-top: 60px;
+}
+a:hover{
+  color:#252A34;
+}
+
+.copyright {
+  margin-top: 60px;
+  text-align: center;
+  font-size:0.5rem;
+}
+
+hr {
+  Background-color: white;
+  width: 4%;
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: #08D9D6;
+  margin: 100px auto ;
+}
+
+.books1 {
+  display: block;
+position:relative;
+left:1100px;
+}
+.outro{
+  width:30%;
+  margin:60px auto 40px;
+}
+.skills {
+  text-align: center;
+}
+.skill1{
+  width:25%;
+  margin:100px auto;
+  text-align:left;
+  line-height:2;
+}
+.skill2{
+  width:25%;
+  margin:100px auto;
+  text-align:left;
+  line-height:2;
+}
+.getintouch {
+  text-align: center;
+}
+
+/* .books2{
+    display:block;
+
+    margin-left:5%;
+} */
+.coffeeimage {
+  display:inline-block;
+  margin: 0 auto;
+}
+
+ .prog-img {
+  width: 10%;
+  float:left;
+  margin-right:30px;
+}
+
+.fin-img {
+  width: 10%;
+  float:right;
+  margin-right:30px;
+}
+
+/* .parapro {
+  width: 25%
+}
+
+.parafin {
+  width: 25%
+} */
+
+.btn {
+  display:block;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 50px auto 120px auto;
+}
+
+.btn:hover {
+  background: #6e7275;
+  background-image: -webkit-linear-gradient(top, #6e7275, #797e82);
+  background-image: -moz-linear-gradient(top, #6e7275, #797e82);
+  background-image: -ms-linear-gradient(top, #6e7275, #797e82);
+  background-image: -o-linear-gradient(top, #6e7275, #797e82);
+  background-image: linear-gradient(to bottom, #6e7275, #797e82);
+  text-decoration: none;
+}
+
+/* THE BOX MODEL:A WEBSITE CAN BE DIVIDED INTO BOXES AND THEN THOSE BOXES CAN BE STYLED SEPERATELY USING CSS.
+IF I INCREASE THE WIDTH OF BOX A, IT WILL ALSO SCALE ITS HEIGHT ACCORDINGLY. MOREOVER, THE BOX ON THE RIGHT
+OF BOX A , SAY BOX B, WILL BE PUSHED AWAY BUT THE CHANGES WON'T TRANSLATE TO IT.  */
+/* NOW A FEW IMPORTANT TERMS WHILE STYLING ARE:
+1. WIDTH AND HEIGHT
+2. BORDER: THE BLAC LINE(DEFAULT COLOR, CAN BE CHANGD) AROUND THE BOX SET TO DEFAULT AS 3PX.
+3.MARGIN : GAP BETWEEN TWO CONSECUTIVE BOXES
+4. PADDING: GAP BETWEEN CONTENT AND BORDER ON EACH SIDE */
+/* DISPLAY IN CSS: IT IS OF FOUR TYPES; BLOCK, INLINE, INLINE BLOCK, NONE. */
+\
+
+/* BLOCK DISPLAY TAKES THE WHOLE WIDTH OF THE PAGE, BLOCKING OUT ANYTHING ELSE. */
+/* TO DEAL WITH STYLING PARTS OF PARAGRAPHS DIFFERENTLY, WE USE AN INLINE DISPLAY ELEMENT SPAN.
+IT TAKES AS MUCH SPACE AS IT NEEDS TO BE. OTHER EXAMPLES ARE: IMG AND ANCHOR.WIDHT OF INLINE
+ ELEMENTS CANNOT BE CHANGD */
+/* WE CAN CHANGE THE DISPLAY VALUE OF SAY A PARAGRAPH FROM BLOCK TO INLINE */
+/* THE BEST OF BOTH WORLDS IS INLINE-BLOCK ELEMENTS THAT ALLOW A CHANGE IN HEIGHT AND WIDTH
+ AT THE SAME TIME ALLOWING OTHERS TO BE IN THE SAME LINE. */
+/* DISPLAY VALUE NONE MAKES THE ELEMENT DISAPPEAR. */
+/* CHILDREN SIT ON PARENTS. THAT IS THE ELEMENT X INSIDE THE ELEMENT P WILL BE DISPLAYED ON TOP */
+/* POSITIONING IS OF 4 TYPES.
+1. STATIC: HOW IT IS FROM HTML WITHOUT APPLYING CSS.
+2. RELATIVE: HOW THE POSITION WILL BE RELATIVE TO THE STATIC POSITIONING.THE COORDINATES ARE
+TOP, BOTTOM, LEFT, AND RIGHT. IT DOES NOT AFFECT OTHER ELEMENTS. THE TOP:50PX MEANS THAT THE TOP WILL BE SHIFTED 50PX
+DOWNWARD RELATIVE TO THE ORIGINAL OR STATIC TOP.A MARGIN IS CREATED BETWEEN CURRENT TOP AND STATIC TOP OF 50PX */
+/* ABSOLUTE POSITIONING MEANS ADDING A MARGIN BETWEEN THE ELEMENT AND ITS PARENT ELEMENT.EG A BOLCK RELATIVE TO A DIV.
+ */
+/* THE FIXED POSITION FIXES THE ELEMENT SO THAT IT STAYS THERE EVEN IF THE WEBSITE IS SCROLLED THROUGH. */
